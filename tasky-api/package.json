@@ -6,11 +6,11 @@
   "author": "Darragh_Drohan/20105993",
   "type": "commonjs",
   "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec npm start"
+  },
   "devDependencies": {
-    "scripts": {
-        "start": "babel-node index.js",
-        "dev": "nodemon --exec npm start"
-    },
     "@babel/core": "^8.1.0",
     "@babel/eslint-parser": "^8.0.7",
     "@babel/node": "^8.0.6",
